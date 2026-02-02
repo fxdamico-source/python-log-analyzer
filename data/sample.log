@@ -1,0 +1,6 @@
+INFO User logged in
+ERROR Failed to load profile
+INFO User clicked button
+WARNING Disk space low
+ERROR Timeout connecting to service
+INFO User logged out
