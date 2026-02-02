@@ -11,7 +11,7 @@ def main():
     results = analyze_log(logfile)
 
     print("Log summary:")
-    for level, count in results.items():
+    for level, count in sorted(results.items()):
         print(f"{level}: {count}")
 
 
