@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    image: log-analyzer
+    command: data/sample.log
