@@ -5,3 +5,8 @@ services:
     build: .
     image: log-analyzer
     command: data/sample.log
+
+  tests:
+    build: .
+    image: log-analyzer
+    entrypoint: pytest
